@@ -1,0 +1,103 @@
+body {
+    background-color: #000;
+}
+
+h2 {
+    color: white;
+    text-decoration: underline dotted;
+
+    margin-bottom: 10px;
+}
+
+#main {
+    margin: 25px auto;
+    background-color: #292929;
+    width: 800px;
+    height: 700px;
+    border-radius: 40px;
+    border: red solid 3px;
+}
+
+.mainsection {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#txtAddTask {
+    min-width: 350px;
+    padding: 10px;
+    margin: 15px;
+    font-size: medium;
+    overflow: auto;
+}
+
+#btnAddTask {
+    background-color: red;
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+
+#btnAddTask:active {
+    background-color: blue;
+    border: red 3px solid;
+}
+
+#content {
+    width: auto;
+    margin: 0px 20px;
+    margin-bottom: 20px;
+    height: 540px;
+    overflow: auto;
+    color: black;
+
+    margin: 10px auto;
+    width: 680px;
+}
+#listItem {
+    display: inline-flex;
+    width: 640px;
+    overflow: hidden;
+    margin: 10px;
+    margin-bottom: 8px;
+    border: red solid 2px;
+    border-radius: 10px;
+    position: relative;
+    align-content: space-between;
+}
+#listText {
+    border-radius: 8px;
+    width: 310px;
+    background-color: rgb(240, 224, 224);
+    padding: 8px;
+    min-width: 560px;
+
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#listText:hover {
+    background-color: rgb(206, 241, 141);
+}
+
+#btnDelete {
+    background-color: blue;
+    height: 100%;
+    padding: 6px;
+    position: absolute;
+    border-radius: 8px;
+    right: 0px;
+}
+
+#checkBox {
+    margin-top: 8px;
+    margin-right: 4px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
